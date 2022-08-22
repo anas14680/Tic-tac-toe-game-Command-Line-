@@ -61,7 +61,15 @@ git clone https://github.com/aarushi-vermaa/Biostat821_Final_Project.git
 
 This will clone all the files on Github to your local machine
 
-**Step 2: Install required packages**
+**Step 3: Create a Virtual Enviornment**
+
+In our case, we used conda to manage virtual enviornments, using the following code.
+
+```text
+conda create --name <env_name>
+```
+
+**Step 3: Install required packages**
 
 ```text
 pip install -r requirements.txt
@@ -69,7 +77,7 @@ pip install -r requirements.txt
 
 Running this command will install the packages used to build the game. This will allow you to play the game seamlessly
 
-**Step 3: Run the game on your local machine**
+**Step 4: Run the game on your local machine**
 
 ```python
 python3 tictactoe_game.py
